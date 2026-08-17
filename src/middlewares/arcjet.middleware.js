@@ -44,12 +44,10 @@ export async function arcjetMiddleware(req, res, next) {
         path: req.path,
       });
 
-      return res
-        .status(403)
-        .json({
-          error: 'Forbidden',
-          message: 'Hosting providers are not allowed',
-        });
+      return res.status(403).json({
+        error: 'Forbidden',
+        message: 'Hosting providers are not allowed',
+      });
     } else if (decision.results.some(isSpoofedBot)) {
       logger.warn('Spoofed bot request blocked', {
         ip: req.ip,
@@ -57,12 +55,10 @@ export async function arcjetMiddleware(req, res, next) {
         path: req.path,
       });
 
-      return res
-        .status(403)
-        .json({
-          error: 'Forbidden',
-          message: 'Automated requests are not allowed',
-        });
+      return res.status(403).json({
+        error: 'Forbidden',
+        message: 'Automated requests are not allowed',
+      });
     }
 
     next();
