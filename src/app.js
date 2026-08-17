@@ -5,6 +5,7 @@ import logger from './utils/logger.js';
 import helmet from 'helmet';
 import morgan from 'morgan';
 import authRouter from './routes/auth.route.js';
+import { arcjetMiddleware } from './middlewares/arcjet.middleware.js';
 
 const app = express();
 
@@ -22,6 +23,8 @@ app.use(
     },
   })
 );
+
+app.use(arcjetMiddleware);
 
 app.get('/', (req, res) => {
   logger.info('Hello from acquisition API');
