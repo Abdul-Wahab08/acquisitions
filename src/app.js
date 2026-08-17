@@ -4,6 +4,7 @@ import express from 'express';
 import logger from './utils/logger.js';
 import helmet from 'helmet';
 import morgan from 'morgan';
+import authRouter from './routes/auth.route.js';
 
 const app = express();
 
@@ -27,5 +28,7 @@ app.get('/', (req, res) => {
 
   res.status(200).send({ message: 'Hello from acquisition API' });
 });
+
+app.use('/api/auth', authRouter);
 
 export default app;
