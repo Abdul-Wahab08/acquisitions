@@ -32,6 +32,12 @@ app.get('/', (req, res) => {
   res.status(200).send({ message: 'Hello from acquisition API' });
 });
 
+app.get('/health', (req, res) => {
+  logger.info('Health check OK');
+
+  res.status(200).send({ message: 'Health check OK' });
+});
+
 app.use('/api/auth', authRouter);
 
 export default app;
