@@ -5,6 +5,7 @@ import logger from './utils/logger.js';
 import helmet from 'helmet';
 import morgan from 'morgan';
 import authRouter from './routes/auth.route.js';
+import usersRouter from './routes/users.route.js';
 import { arcjetMiddleware } from './middlewares/arcjet.middleware.js';
 
 const app = express();
@@ -39,5 +40,6 @@ app.get('/health', (req, res) => {
 });
 
 app.use('/api/auth', authRouter);
+app.use('/api/users', usersRouter);
 
 export default app;

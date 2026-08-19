@@ -1,7 +1,0 @@
-{"level":"info","message":"Hello from acquisition API","service":"acquisition-api","timestamp":"2026-08-16 20:29:30"}
-{"level":"info","message":"Hello from acquisition API","service":"acquisition-api","timestamp":"2026-08-16 20:30:53"}
-{"level":"info","message":"Hello from acquisition API","service":"acquisition-api","timestamp":"2026-08-16 22:28:09"}
-{"level":"info","message":"::1 - - [16/Aug/2026:17:28:09 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36\"","service":"acquisition-api","timestamp":"2026-08-16 22:28:09"}
-{"level":"info","message":"::1 - - [16/Aug/2026:17:28:10 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36\"","service":"acquisition-api","timestamp":"2026-08-16 22:28:10"}
-{"level":"info","message":"Hello from acquisition API","service":"acquisition-api","timestamp":"2026-08-16 22:29:11"}
-{"level":"info","message":"::1 - - [16/Aug/2026:17:29:11 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36\"","service":"acquisition-api","timestamp":"2026-08-16 22:29:11"}
