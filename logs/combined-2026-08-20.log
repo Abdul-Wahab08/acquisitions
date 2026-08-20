@@ -13,3 +13,7 @@
 {"level":"info","message":"::ffff:127.0.0.1 - - [20/Aug/2026:07:33:01 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisition-api","timestamp":"2026-08-20 12:33:01"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [20/Aug/2026:07:33:02 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisition-api","timestamp":"2026-08-20 12:33:02"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [20/Aug/2026:07:33:02 +0000] \"GET /non-existent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisition-api","timestamp":"2026-08-20 12:33:02"}
+{"level":"info","message":"Health check OK","service":"acquisition-api","timestamp":"2026-08-20 16:05:14"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [20/Aug/2026:11:05:14 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisition-api","timestamp":"2026-08-20 16:05:14"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [20/Aug/2026:11:05:15 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisition-api","timestamp":"2026-08-20 16:05:15"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [20/Aug/2026:11:05:16 +0000] \"GET /non-existent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisition-api","timestamp":"2026-08-20 16:05:16"}

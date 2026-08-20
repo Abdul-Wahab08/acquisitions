@@ -28,6 +28,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Ensure .env exists for CI
+        run: touch .env
+
       - name: Run tests
         id: tests
         run: |
