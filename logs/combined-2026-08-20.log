@@ -1,0 +1,15 @@
+{"level":"info","message":"Health check OK","service":"acquisition-api","timestamp":"2026-08-20 11:45:33"}
+{"level":"info","message":"::1 - - [20/Aug/2026:06:45:33 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36\"","service":"acquisition-api","timestamp":"2026-08-20 11:45:33"}
+{"level":"info","message":"::1 - - [20/Aug/2026:06:45:33 +0000] \"GET /favicon.ico HTTP/1.1\" 404 27 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36\"","service":"acquisition-api","timestamp":"2026-08-20 11:45:33"}
+{"level":"info","message":"Health check OK","service":"acquisition-api","timestamp":"2026-08-20 12:26:28"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [20/Aug/2026:07:26:28 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisition-api","timestamp":"2026-08-20 12:26:28"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [20/Aug/2026:07:26:28 +0000] \"GET /api HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisition-api","timestamp":"2026-08-20 12:26:28"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [20/Aug/2026:07:26:28 +0000] \"GET /non-existent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisition-api","timestamp":"2026-08-20 12:26:28"}
+{"level":"info","message":"Health check OK","service":"acquisition-api","timestamp":"2026-08-20 12:32:16"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [20/Aug/2026:07:32:16 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisition-api","timestamp":"2026-08-20 12:32:16"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [20/Aug/2026:07:32:16 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisition-api","timestamp":"2026-08-20 12:32:16"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [20/Aug/2026:07:32:16 +0000] \"GET /non-existent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisition-api","timestamp":"2026-08-20 12:32:16"}
+{"level":"info","message":"Health check OK","service":"acquisition-api","timestamp":"2026-08-20 12:33:01"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [20/Aug/2026:07:33:01 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisition-api","timestamp":"2026-08-20 12:33:01"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [20/Aug/2026:07:33:02 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisition-api","timestamp":"2026-08-20 12:33:02"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [20/Aug/2026:07:33:02 +0000] \"GET /non-existent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisition-api","timestamp":"2026-08-20 12:33:02"}
