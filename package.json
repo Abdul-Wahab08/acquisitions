@@ -15,7 +15,7 @@
     "db:studio": "drizzle-kit studio",
     "dev:docker": "sh ./scripts/dev.sh",
     "prod:docker": "sh ./scripts/prod.sh",
-   "test": "cross-env NODE_OPTIONS=--experimental-vm-modules node --env-file=.env ./node_modules/jest/bin/jest.js"
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules node --env-file=.env ./node_modules/jest/bin/jest.js"
   },
   "type": "module",
   "keywords": [],
