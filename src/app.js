@@ -25,8 +25,6 @@ app.use(
   })
 );
 
-app.use(arcjetMiddleware);
-
 app.get('/', (_req, res) => {
   logger.info('Hello from acquisition API');
 
@@ -46,6 +44,8 @@ app.get('/health', (_req, res) => {
 app.get('/api', (_req, res) => {
   res.status(200).json({ message: 'Acquisitions API is running!' });
 });
+
+app.use(arcjetMiddleware);
 
 app.use('/api/auth', authRouter);
 app.use('/api/users', usersRouter);

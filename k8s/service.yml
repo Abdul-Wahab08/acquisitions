@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: acquisitions-kubernetes-api-service
+  labels:
+    app: acquisitions-kubernetes-api
+spec:
+  selector:
+    app: acquisitions-api
+  ports:
+    - protocol: TCP
+      port: 3000 # Service port
+      targetPort: 3000 # Container port
+  type: NodePort # change to LoadBalancer if running in cloud
